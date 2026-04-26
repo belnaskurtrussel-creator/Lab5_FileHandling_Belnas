@@ -1,3 +1,4 @@
+print("1.)")
 from pathlib import Path 
 
 output_dir = Path.home() / "Documents" / "PythonFiles" 
@@ -12,6 +13,8 @@ with open(file_path, "w", encoding="utf-8") as file:
 print(f"File saved to: {file_path.resolve()}")
 
 
+
+print("2.)")
 if file_path.exists(): 
     with open(file_path, "r", encoding="utf-8") as file: 
         content = file.read() 
@@ -22,12 +25,15 @@ with open(file_path, "r", encoding="utf-8") as file:
         print(f"Line {line_number}: {line.strip()}") 
 
 
+print("3.)")
 with open(file_path, "a", encoding="utf-8") as file: 
     file.write("\nThis line was added!") 
 
 print("Data appended successfully.")
 
 
+
+print("4.)")
 from datetime import datetime 
 import shutil 
 
@@ -67,6 +73,8 @@ for backup in backup_dir.glob("*backup*"):
     print("-", backup.name)
 
 
+
+print("5.)")
 from pathlib import Path 
 from datetime import datetime 
 import shutil 
