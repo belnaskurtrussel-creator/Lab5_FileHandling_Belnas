@@ -4,7 +4,7 @@ print("1.)")
 from pathlib import Path 
  
 student_id = "TUPM-25-0291"
-student_name = "Your Full Name" 
+student_name = "Kurt Russel S. Belnas" 
  
 documents_path = Path.home() / "Documents" / "Activity_5_Files" 
 documents_path.mkdir(parents=True, exist_ok=True) 
@@ -84,7 +84,7 @@ print("6.)")
 from pathlib import Path 
  
 student_id = "TUPM-25-0291"
-student_name = "Your Full Name" 
+student_name = "Kurt Russel S. Belnas" 
  
 file_path = Path.home() / "Documents" / "Activity_5_Files" / f"lines_{student_id}.txt" 
  
@@ -100,10 +100,10 @@ print("7.)")
 # Cell 1: Create and Write to a File from pathlib import Path 
  
 student_id = "TUPM-25-0291"
-student_name = "Your Full Name" 
+student_name = "Kurt Russel S. Belnas" 
  
 documents_path = Path.home() / "Documents" / "Activity_5_Files" 
-documents_path.mkdir(parents=True, exist_ok=True) 
+documents_path.mkdir(parents=True, exist_ok=True)
  
 file_path = documents_path / f"intro_{student_id}.txt" 
 file_path.write_text(f"Welcome {student_name} (ID: {student_id}) to File Handling in Python!") 
@@ -243,7 +243,7 @@ from pathlib import Path
  
 # Personal details 
 student_id = "TUPM-25-0291"
-student_name = "Your Full Name" 
+student_name = "Kurt Russel S. Belnas" 
  
 # Define directory and file path 
 documents_path = Path.home() / "Documents" / "Activity_5_Files" 
